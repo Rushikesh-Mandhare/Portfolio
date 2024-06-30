@@ -1,0 +1,38 @@
+/* Default styles for the contact section */
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media query for max width 1100px */
+  @media (max-width: 1100px) {
+    .contact {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  /* Additional styles for form elements */
+  .form input,
+  .form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .form input[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form input[type="submit"]:hover {
+    background-color: #e65c00;
+  }
+  

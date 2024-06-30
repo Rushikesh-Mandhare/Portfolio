@@ -1,0 +1,5 @@
+@media (min-width: 1100px) {
+    .bg {
+      background-color: blue; /* Example change for larger screens */
+    }
+  }

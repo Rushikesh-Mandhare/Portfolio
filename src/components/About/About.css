@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    .text {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .heading{
+        display: flex;
+        justify-content: center;
+        padding-top: 75px;
+        margin-bottom: 0px;
+    }
+    
+    .r{
+        display: none;
+    }
+  }

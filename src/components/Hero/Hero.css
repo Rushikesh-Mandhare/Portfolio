@@ -1,0 +1,62 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Hero section styles */
+.hero {
+    height: calc(100vh - 96px);
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+}
+
+/* Apply font-family to h2 elements */
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-family: "Exo 2", sans-serif;
+}
+
+@media (max-width: 800px) {
+    .image {
+        height: 50%;
+        width: 100%;
+        top: unset;
+        bottom:0px;
+        display: none;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: none;
+    }
+
+    .text {
+        margin: auto;
+        width: 100%;
+        height: 50%;
+        gap:20px;
+        align-items: center;
+        text-align: center;
+        top: 0px; 
+        
+    }
+    .text h2 {
+        font-size: 1.5rem; /* Adjust as needed */
+    }
+
+    .text h1 {
+        font-size: 36px; /* Adjust as needed */
+    }
+
+    .btn a, .btn button {
+        font-size: 0.875rem; /* Adjust as needed */
+    }
+
+    .slidingTextContainer{
+        font-size: 100px; /* Adjust as needed */
+    }
+}
