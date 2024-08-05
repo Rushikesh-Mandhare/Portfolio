@@ -36,3 +36,47 @@
     background-color: #e65c00;
   }
   
+
+  @media (max-width: 768px) {
+    .contact {
+        padding: 1rem; /* Reduce padding */
+    }
+
+    .header {
+        font-size: 2rem; /* Scale down the header font size */
+    }
+
+    .text-2xl {
+        font-size: 1rem; /* Scale down the subheader font size */
+    }
+
+    .form input,
+    .form textarea {
+        font-size: 0.875rem; /* Scale down the input and textarea font size */
+    }
+
+    .form input[type="submit"] {
+        font-size: 1rem; /* Scale down the submit button font size */
+        padding: 0.5rem 1rem; /* Adjust padding */
+    }
+
+    .contact .col-span-1 {
+        width: 100%; /* Ensure the columns take full width on small screens */
+    }
+
+    .form {
+        margin-top: 1rem; /* Adjust margin for form */
+    }
+
+    .txt {
+        text-align: center; /* Center align the text section */
+    }
+
+    .txt p {
+        font-size: 0.875rem; /* Scale down the paragraph text size */
+    }
+
+    .contact .header {
+        text-align: center; /* Center align the header */
+    }
+}

@@ -31,11 +31,11 @@ const About = () => {
   }, [controls, inView]);
 
   return (
-    <div className="About w-full h-full flex items-center justify-center flex-col" style={{
+    <div className="About w-full h-dvh flex items-center justify-center flex-col" style={{
       background: "linear-gradient(180deg, #111132, #0c0c1d)"
     }}>
       <motion.h1 
-        className="heading text-5xl font-bold mb-7 "
+        className="heading text-5xl font-bold mb-7"
         ref={ref}
         initial="hidden"
         animate={controls}
@@ -44,7 +44,7 @@ const About = () => {
         About Me
       </motion.h1>
       <motion.div 
-        className="text w-8/12 text-lg"
+        className="textt w-8/12 text-lg"
         ref={ref}
         initial="hidden"
         animate={controls}
@@ -56,7 +56,7 @@ const About = () => {
         <motion.p className="mb-4" variants={variants}>
           Web development is my passion, and I have completed numerous projects using React. I enjoy creating dynamic and responsive web applications that provide excellent user experiences.
         </motion.p>
-        <motion.p className="r mb-4" variants={variants}>
+        <motion.p className="mb-4" variants={variants}>
           Besides web development, I have a keen interest in learning new technologies and improving my skills in various domains. I am always excited to take on new challenges and collaborate with like-minded individuals to create impactful projects.
         </motion.p>
         <motion.p className="mb-4" variants={variants}>

@@ -20,7 +20,7 @@ export default function App() {
       {/* <section className="h-screen snap-center" id="Projects">3</section> */}
       <Projects/>
       <section className="h-screen snap-center" id="Contact"><Contact/></section>
-      <section className="h-screen snap-center" id="About"><About/></section>
+      <section className="snap-center" id="About"><About/></section>
     </div>
     // <Test/>
   )

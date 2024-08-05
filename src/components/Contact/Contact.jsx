@@ -55,7 +55,7 @@ const Contact = () => {
                 {/* Left Section */}
                 <motion.div className="col-span-1" ref={ref} initial="hidden" animate={controls} variants={variants}>
                     <div className="txt">
-                        <motion.h1 className="text-5xl font-bold mb-7">Contact Me</motion.h1>
+                        <motion.h1 className="header text-5xl font-bold mb-7">Contact Me</motion.h1>
                         <motion.div variants={variants}>
                             <motion.h2 className="text-2xl font-bold">Mail</motion.h2>
                             <motion.p variants={variants}>rushikesh.mandhare@mitaoe.ac.in</motion.p>
