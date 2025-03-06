@@ -16,16 +16,10 @@ const Navbar = () => {
           My Portfolio
         </motion.span>
         <div className="social flex space-x-4">
-          <a href="https://www.facebook.com/rushikesh.mandhare.980/" target="_blank" rel="noopener noreferrer">
-            <img className='w-6' src="/facebook.png" alt="Facebook" />
-          </a>
-          <a href="https://x.com/Rushi_4162" target="_blank" rel="noopener noreferrer">
-            <img className='w-6' src="/twitter.png" alt="Twitter" />
-          </a>
-          <a href="https://www.linkedin.com/in/rushikesh-mandhare-4a89b2247/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/shivam-bhagwat-b27924278/" target="_blank" rel="noopener noreferrer">
             <img className='w-6' src="/linkedin.png" alt="LinkedIn" />
           </a>
-          <a href="https://github.com/Rushikesh-Mandhare" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/shivaa101" target="_blank" rel="noopener noreferrer">
             <img className='w-6 filter invert' src="/github.png" alt="GitHub" />
           </a>
         </div>

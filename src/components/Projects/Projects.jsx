@@ -8,21 +8,21 @@ const items = [
     title: "Netflix Clone",
     image: "/Netflix.png",
     desc: "I created a Netflix Clone using HTML, CSS, and JavaScript with responsive design capable of running on phones.",
-    code:"https://github.com/Rushikesh-Mandhare/Netflix-Clone.git"
+    code:"https://github.com/shivaa101/NetflixClone"
   },
   {
     id: 2,
     title: "isitFAKE",
     image: "/isitFAKE.png",
     desc: "I created a model using Deep Learning to detect AI-generated fake images. Implemented a user-friendly interface using React.",
-    code:"https://github.com/Rushikesh-Mandhare/isItFAKE-detect-AI-Generated-Images-using-CNN.git"
+    code:"https://github.com/shivaa101/isItFAKE"
   },
   {
     id: 3,
-    title: "IMDB Clone",
-    image: "/imdb.png",
-    desc: "I created an IMDB Clone using React.",
-    code:"https://github.com/Rushikesh-Mandhare/IMDB_Clone.git"
+    title: "Academic Nexa",
+    image: "/studentPortal.jpg",
+    desc: "Deployed a microservice based web application and manage it using Kubernetes for high availability and efficient resource utilization",
+    code:"https://github.com/shivaa101/Student-Portal"
   }
 ];
 

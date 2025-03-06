@@ -1,3 +1,6 @@
+.navbar{
+  background: linear-gradient(90deg, #000000, #8723ec);
+}
 @media (max-width: 1160px) {
     .title {
       margin: auto;

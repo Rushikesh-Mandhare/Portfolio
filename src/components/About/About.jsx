@@ -51,7 +51,7 @@ const About = () => {
         variants={variants}
       >
         <motion.p className="mb-4" variants={variants}>
-          My name is Rushikesh Ganesh Mandhare. I am currently pursuing my B-Tech at MIT Academy of Engineering, specializing in Computer Science.
+          My name is Shivam Bhagwat. I am currently pursuing my B-Tech at MIT Academy of Engineering, specializing in Computer Science.
         </motion.p>
         <motion.p className="mb-4" variants={variants}>
           Web development is my passion, and I have completed numerous projects using React. I enjoy creating dynamic and responsive web applications that provide excellent user experiences.

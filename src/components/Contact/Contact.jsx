@@ -58,11 +58,11 @@ const Contact = () => {
                         <motion.h1 className="header text-5xl font-bold mb-7">Contact Me</motion.h1>
                         <motion.div variants={variants}>
                             <motion.h2 className="text-2xl font-bold">Mail</motion.h2>
-                            <motion.p variants={variants}>rushikesh.mandhare@mitaoe.ac.in</motion.p>
+                            <motion.p variants={variants}>shivam.Bhagwat@mitaoe.ac.in</motion.p>
                         </motion.div>
                         <motion.div className="mt-4" variants={variants}>
                             <motion.h2 className="text-2xl font-bold">Phone No</motion.h2>
-                            <motion.p variants={variants}>9822396918</motion.p>
+                            <motion.p variants={variants}>8459538500</motion.p>
                         </motion.div>
                         <motion.div className="mt-4" variants={variants}>
                             <motion.h2 className="text-2xl font-bold">Address</motion.h2>

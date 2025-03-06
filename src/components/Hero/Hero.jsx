@@ -48,7 +48,7 @@ const imageVariants = {
 
 const Hero = () => {
     // Replace with your resume file URL
-    const resumeUrl = "https://drive.google.com/file/d/1J4A4fm_97Cwly_fRooHKzGbpVacWz-a5/view?usp=sharing";
+    const resumeUrl = "https://drive.google.com/file/d/1hgGRO8anAgzS4PESrapeODEt5g2OtFEi/view?usp=drivesdk ";
 
     return (
         <div className="hero flex relative overflow-x-hidden">
@@ -110,13 +110,13 @@ const Hero = () => {
                 <motion.div className="text h-full flex flex-col justify-center gap-4 w-1/2" variants={textVariants} initial="initial" animate="animate">
                 
                     <motion.h2 className="text-white text-3xl">Hi, My Name is</motion.h2>
-                    <motion.h2 className="text-purple-700 text-3xl">Rushikesh Mandhare</motion.h2>
+                    <motion.h2 className="text-purple-700 text-3xl">Shivam Bhagwat</motion.h2>
                     <motion.h2 className="text-white text-3xl">And I am a</motion.h2>
                     <motion.h1 className="text-white ttt text-7xl">Web Developer</motion.h1>
                     <motion.div className="btn flex gap-4">
                         <motion.a
                             href={resumeUrl}
-                            download="Rushikesh_Mandhare_Resume.pdf"
+                            download="Shivam_Resume.pdf"
                             className="py-2 px-4 border border-white rounded-lg bg-transparent text-white cursor-pointer font-light z-10"
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}

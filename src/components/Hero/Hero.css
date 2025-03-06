@@ -5,7 +5,7 @@
 /* Hero section styles */
 .hero {
     height: calc(100vh - 96px);
-    background: linear-gradient(180deg, #0c0c1d, #111132);
+    background: linear-gradient(90deg, #000000, #8723ec);
 }
 
 /* Apply font-family to h2 elements */
